@@ -5,7 +5,7 @@
   "license": "MIT",
 "scripts": {
   "dev": "set NODE_ENV=development&& npx tsx server/index.ts",
-  "build": "node --loader tsx script/build.ts",
+  "build": "node --import tsx script/build.ts",
   "start": "node dist/index.cjs",
   "check": "tsc"
 },
